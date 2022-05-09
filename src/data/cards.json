@@ -1,0 +1,26 @@
+[
+    {
+        "src": "../assets/car.png",
+        "matched": false
+    },
+    {
+        "src": "../assets/coin.png",
+        "matched": false
+    },
+    {
+        "src": "../assets/flag.png",
+        "matched": false
+    },
+    {
+        "src": "../assets/home.png",
+        "matched": false
+    },
+    {
+        "src": "../assets/plane.png",
+        "matched": false
+    },
+    {
+        "src": "../assets/tower.png",
+        "matched": false
+    }
+]

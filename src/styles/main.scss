@@ -1,0 +1,14 @@
+@import "./reset";
+@import "./fonts";
+
+body {
+  background: #001220;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+}
