@@ -8,3 +8,10 @@ export const StyledContainer = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
 `;
+
+export const StyledContainerTitle = styled.h2`
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/5;
+`;

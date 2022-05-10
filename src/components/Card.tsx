@@ -1,4 +1,5 @@
-import { FC, useContext } from "react";
+import gsap from "gsap";
+import { FC, useContext, useEffect } from "react";
 import { Cards } from "../interfaces";
 import { StyledCard } from "../styledComponents/Card.styled";
 import { UserContext } from "../useContext/Context";
@@ -15,8 +16,17 @@ const Card: FC<Props> = ({ card }) => {
   const isFlipped: boolean =
     card === choiceOne || card === choiceTwo || card.matched;
 
+  useEffect(() => {
+    gsap.fromTo(
+      ".card",
+      0.5,
+      { transform: "translateY(-50%)", opacity: 0 },
+      { transform: "translateY(0)", opacity: 1, stagger: 0.5 }
+    );
+  }, []);
+
   return (
-    <StyledCard>
+    <StyledCard className="card">
       <div className={isFlipped ? "flipped" : ""}>
         <img src={card.src} className="front" alt="card front" />
         <img

@@ -1,26 +1,26 @@
 [
     {
-        "src": "../assets/car.png",
+        "src": "../assets/angular.svg",
         "matched": false
     },
     {
-        "src": "../assets/coin.png",
+        "src": "../assets/ember.svg",
         "matched": false
     },
     {
-        "src": "../assets/flag.png",
+        "src": "../assets/js.svg",
         "matched": false
     },
     {
-        "src": "../assets/home.png",
+        "src": "../assets/react.svg",
         "matched": false
     },
     {
-        "src": "../assets/plane.png",
+        "src": "../assets/vue.svg",
         "matched": false
     },
     {
-        "src": "../assets/tower.png",
+        "src": "../assets/ruby.svg",
         "matched": false
     }
 ]
